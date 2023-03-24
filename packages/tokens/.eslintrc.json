@@ -1,0 +1,3 @@
+{
+  "extends": "@skedle.me-ui/eslint-config"
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "@skedle.me-ui/ts-config/base.json",
+  "include": ["src"]
+}
