@@ -5,7 +5,7 @@ export default {
   title: 'Data display/Avatar',
   component: Avatar,
   args: {
-    src: 'https://github.com/osvaldokalvaitir.png',
+    src: 'https://cdn4.iconfinder.com/data/icons/people-avatar-filled-outline/64/glasses_businessman_people_male_man_avatar_blonde-512.png',
     alt: 'Avatar',
   },
   argTypes: {
