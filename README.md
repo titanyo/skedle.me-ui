@@ -43,7 +43,7 @@ Depois de realizar as alterações, execute o comando abaixo para adicionar os p
 npm run changeset
 ```
 
-Siga os passos e finalize o processo. Aparecerá um novo arquivo na pasta `.changeset` com o tipo de versão `major`, altere-o caso seja necessário:
+Siga os passos e finalize o processo, lembrando de alterar o tipo da versão:
 
 - Mudanças que quebram a compatibilidade com versões anteriores são consideradas `major` (2.0.0).
 
