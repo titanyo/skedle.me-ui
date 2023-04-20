@@ -1,7 +1,7 @@
 # @skedle.me-ui/tokens
 
-## 1.1.0
+## 1.0.1
 
-### Minor Changes
+### Patch Changes
 
-- Add new test color
+- Remove test colors to tokens

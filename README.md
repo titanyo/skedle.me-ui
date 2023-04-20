@@ -13,36 +13,12 @@
 </p>
 
 <p align="center">
-  <a href="#wrench-tecnologias-e-ferramentas">Tecnologias e Ferramentas</a>   |   <a href="#fire-instalação-e-execução">Instalação e execução</a>   |   <a href="#warning-observações-importantes">Observações importantes</a>   |   <a href="#memo-licença">Licença</a>
+  <a href="#fire-instalação-e-execução">Instalação e execução</a>   |   <a href="#hash-versionamento">Versionamento</a>   |   <a href="#memo-licença">Licença</a>
 </p>
 
-## :wrench: Tecnologias e Ferramentas
+## :wrench: Instalação e Execução
 
-Este projeto foi desenvolvido com as principais tecnologias:
-
-- [React](https://github.com/facebook/react) - Biblioteca JavaScript para criar interfaces
-
-- [TypeScript](https://www.typescriptlang.org) - Tipagem para JavaScript
-
-- [Turbo](https://turbo.build) - Ferramenta para monorepo
-
-- [ESLint](https://eslint.org) - Linter, uma ferramenta de análise estática
-
-- [Storybook](https://storybook.js.org) - Workshop de front-end para criar componentes e páginas de interface do usuário isoladamente
-
-- [Tailwind CSS](https://tailwindcss.com) - Estilização
-
-Ferramentas obrigatórias:
-
-- [Git](https://git-scm.com) - Versionamento de código
-
-- [Node.js](https://nodejs.org) - Interpretador Javascript
-
-Ferramentas não obrigatórias mas ajudam no desenvolvimento do projeto:
-
-- [VS Code](https://code.visualstudio.com) - Editor de código-fonte
-
-## :fire: Instalação e Execução
+Abrir terminal:
 
 ```sh
 # Clone este repositório
@@ -59,14 +35,33 @@ npm run dev
 
 ```
 
-## :warning: Observações importantes
+## :hash: Versionamento
 
-Nenhuma observação.
+Depois de realizar as alterações, execute o comando abaixo para adicionar os pacotes que foram alterados para gerar uma nova versão:
+
+```sh
+npm run changeset
+```
+
+Siga os passos e finalize o processo. Aparecerá um novo arquivo na pasta `.changeset` com o tipo de versão `major`, altere-o caso seja necessário:
+
+- Mudanças que quebram a compatibilidade com versões anteriores são consideradas `major` (2.0.0).
+
+- Novos recursos compatíveis com versões anteriores são considerados `minor` (1.1.0).
+
+- Correções de bugs compatíveis com versões anteriores são consideradas `patch` (1.0.1).
+
+Execute o comando para criar os changelogs e alterar a versão nos pacotes:
+
+```sh
+npm run version-packages
+```
+
+Termine o procedimento fazendo um pull request com o nome do recurso, subindo para o GitHub e aprovando-o.
 
 ## :memo: Licença
 
-Este projeto está sob licença privada com todos os direitos pertencentes à [Prisma Promotora](https://prismapromotora.com.br/).
-
+Este projeto está sob licença MIT. Veja [LICENÇA](/LICENSE) para mais informações.
 ---
 
 <p align="center">
