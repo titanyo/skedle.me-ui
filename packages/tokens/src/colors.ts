@@ -19,4 +19,6 @@ export const colors = <const>{
   red600: '#FF5252',
 
   green400: '#5BD76F',
+
+  test: '#fff',
 }
