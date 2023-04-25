@@ -10,6 +10,7 @@
 
 <p align="center">
   :open_book: Design System do projeto Skedle.me.
+  <a href="https://prismapro.github.io/skedle.me-ui/">Clique aqui</a> para acessar.  
 </p>
 
 <p align="center">
@@ -62,6 +63,7 @@ Termine o procedimento fazendo um pull request com o nome do recurso, subindo pa
 ## :memo: Licença
 
 Este projeto está sob licença MIT. Veja [LICENÇA](/LICENSE) para mais informações.
+
 ---
 
 <p align="center">
