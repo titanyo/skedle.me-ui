@@ -7,6 +7,8 @@ export default {
   args: {
     size: 4,
     currentStep: 1,
+    stepLabel: 'Step',
+    ofLabel: 'of',
   },
   decorators: [
     (Story) => {
