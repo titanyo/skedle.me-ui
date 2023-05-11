@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 1.0.4
+
+### Patch Changes
+
+- Fix component styles
+
 ## 1.0.3
 
 ### Patch Changes
