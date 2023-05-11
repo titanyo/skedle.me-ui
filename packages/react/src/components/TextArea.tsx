@@ -21,7 +21,7 @@ export const TextArea = styled('textarea', {
   },
 
   '&:disabled': {
-    outline: 0.5,
+    opacity: 0.5,
     cursor: 'not-allowed',
   },
 
