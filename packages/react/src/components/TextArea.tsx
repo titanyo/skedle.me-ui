@@ -15,11 +15,6 @@ export const TextArea = styled('textarea', {
   resize: 'vertical',
   minHeight: 80,
 
-  '&:focus': {
-    outline: 0,
-    borderColor: '$yellow400',
-  },
-
   '&:disabled': {
     opacity: 0.5,
     cursor: 'not-allowed',
@@ -27,6 +22,24 @@ export const TextArea = styled('textarea', {
 
   '&:placeholder': {
     color: '$gray400',
+  },
+
+  '&:focus': {
+    outline: 0,
+    border: '3px solid $yellow400',
+  },
+
+  variants: {
+    error: {
+      true: {
+        border: '3px solid $red700',
+      },
+      false: {},
+    },
+  },
+
+  defaultVariants: {
+    error: false,
   },
 })
 

@@ -2,9 +2,25 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextArea, TextAreaProps } from '@skedle.me-ui/react'
 
 export default {
-  title: 'Form/Text Area',
+  title: 'Form/TextArea',
   component: TextArea,
-  args: {},
+  args: {
+    placeholder: 'Add any observations...',
+    disabled: false,
+    error: false,
+  },
+  argTypes: {
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    error: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -20,14 +36,16 @@ export default {
   ],
 } as Meta<TextAreaProps>
 
-export const Primary: StoryObj<TextAreaProps> = {
-  args: {
-    placeholder: 'Add any observations...',
-  },
-}
+export const Default: StoryObj<TextAreaProps> = {}
 
 export const Disabled: StoryObj<TextAreaProps> = {
   args: {
     disabled: true,
+  },
+}
+
+export const WithError: StoryObj<TextAreaProps> = {
+  args: {
+    error: true,
   },
 }

@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '@skedle.me-ui/react'
-import { ArrowRight } from 'phosphor-react'
+import { ArrowLeft, ArrowRight } from 'phosphor-react'
 
 export default {
   title: 'Form/Button',
@@ -9,19 +9,25 @@ export default {
     children: 'Send',
     variant: 'primary',
     size: 'md',
+    full: false,
     disabled: false,
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ['primary', 'secondary', 'tertiary', 'danger'],
       control: {
         type: 'inline-radio',
       },
     },
     size: {
-      options: ['sm', 'md'],
+      options: ['sm', 'md', 'lg'],
       control: {
         type: 'inline-radio',
+      },
+    },
+    full: {
+      control: {
+        type: 'boolean',
       },
     },
     disabled: {
@@ -51,13 +57,31 @@ export const Tertiary: StoryObj<ButtonProps> = {
   },
 }
 
-export const Small: StoryObj<ButtonProps> = {
+export const Danger: StoryObj<ButtonProps> = {
   args: {
-    size: 'sm',
+    variant: 'danger',
+    children: 'Delete',
   },
 }
 
-export const WithIcon: StoryObj<ButtonProps> = {
+export const Full: StoryObj<ButtonProps> = {
+  args: {
+    full: true,
+  },
+}
+
+export const LeftIcon: StoryObj<ButtonProps> = {
+  args: {
+    children: (
+      <>
+        <ArrowLeft weight="bold" />
+        Back
+      </>
+    ),
+  },
+}
+
+export const RightIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
@@ -65,11 +89,5 @@ export const WithIcon: StoryObj<ButtonProps> = {
         <ArrowRight weight="bold" />
       </>
     ),
-  },
-}
-
-export const Disabled: StoryObj<ButtonProps> = {
-  args: {
-    disabled: true,
   },
 }

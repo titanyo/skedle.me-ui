@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.0.0
+
+### Major Changes
+
+- Add IconButton, Tag and others changes
+
 ## 1.0.4
 
 ### Patch Changes

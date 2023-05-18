@@ -1,7 +1,7 @@
 import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
-export const Button = styled('button', {
+export const IconButton = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
   fontWeight: '$medium',
@@ -12,13 +12,12 @@ export const Button = styled('button', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  gap: '$2',
 
   cursor: 'pointer',
 
   svg: {
-    width: '$4',
-    height: '$4',
+    width: '$5',
+    height: '$5',
   },
 
   '&:disabled': {
@@ -89,38 +88,27 @@ export const Button = styled('button', {
 
     size: {
       sm: {
-        fontSize: '$sm',
-        padding: '$2 $4',
+        padding: '$2',
       },
 
       md: {
-        fontSize: '$md',
-        padding: '$3 $6',
+        padding: '$3',
       },
 
       lg: {
-        fontSize: '$md',
-        padding: '$4 $8',
+        padding: '$4',
       },
-    },
-
-    full: {
-      true: {
-        width: '100%',
-      },
-      false: {},
     },
   },
 
   defaultVariants: {
     variant: 'primary',
     size: 'md',
-    full: false,
   },
 })
 
-export interface ButtonProps extends ComponentProps<typeof Button> {
+export interface IconButtonProps extends ComponentProps<typeof IconButton> {
   as?: ElementType
 }
 
-Button.displayName = 'Button'
+IconButton.displayName = 'IconButton'

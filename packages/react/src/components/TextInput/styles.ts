@@ -8,19 +8,11 @@ export const TextInputContainer = styled('div', {
   display: 'flex',
   alignItems: 'center',
 
-  variants: {
-    size: {
-      sm: {
-        padding: '$2 $3',
-      },
-      md: {
-        padding: '$3 $4',
-      },
-    },
-  },
+  padding: '0 $4',
+  height: '$12',
 
   '&:has(input:focus)': {
-    borderColor: '$yellow400',
+    border: '3px solid $yellow400',
   },
 
   '&:has(input:disabled)': {
@@ -28,16 +20,33 @@ export const TextInputContainer = styled('div', {
     cursor: 'not-allowed',
   },
 
+  variants: {
+    error: {
+      true: {
+        border: '3px solid $red700',
+      },
+      false: {},
+    },
+  },
+
   defaultVariants: {
-    size: 'md',
+    error: false,
   },
 })
 
 export const Prefix = styled('span', {
   fontFamily: '$default',
   fontSize: '$sm',
-  color: '$gray400',
+  color: '$gray200',
   fontWeight: '$regular',
+})
+
+export const LeftContainer = styled('div', {
+  marginRight: '$2',
+})
+
+export const RightContainer = styled('div', {
+  marginLeft: '$2',
 })
 
 export const Input = styled('input', {
