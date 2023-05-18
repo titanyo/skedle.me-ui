@@ -59,14 +59,14 @@ export const IconButton = styled('button', {
       },
 
       tertiary: {
-        color: '$gray100',
+        color: '$yellow400',
 
         '&:not(:disabled):hover': {
-          color: '$white',
+          color: '$yellow500',
         },
 
         '&:disabled': {
-          color: '$gray600',
+          color: '$gray200',
         },
       },
 

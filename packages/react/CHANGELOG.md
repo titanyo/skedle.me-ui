@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.0.2
+
+### Patch Changes
+
+- Changes icon button color
+
 ## 2.0.1
 
 ### Patch Changes
