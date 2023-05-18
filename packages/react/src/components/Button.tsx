@@ -4,13 +4,10 @@ import { styled } from '../styles'
 export const Button = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
-  fontSize: '$sm',
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
-  minWidth: 120,
   boxSizing: 'border-box',
-  padding: '0 $4',
 
   display: 'flex',
   alignItems: 'center',
@@ -73,22 +70,52 @@ export const Button = styled('button', {
           color: '$gray600',
         },
       },
+
+      danger: {
+        color: '$red600',
+        border: '2px solid $red700',
+
+        '&:not(:disabled):hover': {
+          background: '$red700',
+          color: '$white',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
+          borderColor: '$gray200',
+        },
+      },
     },
 
     size: {
       sm: {
-        height: 38,
+        fontSize: '$sm',
+        padding: '$2 $4',
       },
 
       md: {
-        height: 46,
+        fontSize: '$md',
+        padding: '$3 $6',
       },
+
+      lg: {
+        fontSize: '$md',
+        padding: '$4 $8',
+      },
+    },
+
+    full: {
+      true: {
+        width: '100%',
+      },
+      false: {},
     },
   },
 
   defaultVariants: {
     variant: 'primary',
     size: 'md',
+    full: false,
   },
 })
 
