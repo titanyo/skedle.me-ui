@@ -21,9 +21,9 @@ export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
   ) => {
     return (
       <TextInputContainer error={error}>
-        {!!prefix && <Prefix>{prefix}</Prefix>}
-
         {!!leftButton && <LeftContainer>{leftButton}</LeftContainer>}
+
+        {!!prefix && <Prefix>{prefix}</Prefix>}
 
         <Input ref={ref} {...props} />
 
