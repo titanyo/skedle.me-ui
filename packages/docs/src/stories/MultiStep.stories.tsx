@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, MultiStep, MultiStepProps } from '@skedle.me-ui/react'
 
 export default {
-  title: 'Form/Multi Step',
+  title: 'Form/MultiStep',
   component: MultiStep,
   args: {
     size: 5,
@@ -24,7 +24,7 @@ export default {
   ],
 } as Meta<MultiStepProps>
 
-export const Primary: StoryObj<MultiStepProps> = {
+export const Default: StoryObj<MultiStepProps> = {
   args: {},
 }
 
