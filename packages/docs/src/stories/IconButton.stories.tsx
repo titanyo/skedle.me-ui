@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { IconButton, IconButtonProps } from '@skedle.me-ui/react'
-import { Plus, Trash } from 'phosphor-react'
+import { Check, Plus, X, Warning as WarningIcon } from 'phosphor-react'
 
 export default {
   title: 'Form/IconButton',
@@ -13,7 +13,14 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary', 'danger'],
+      options: [
+        'primary',
+        'secondary',
+        'tertiary',
+        'warning',
+        'danger',
+        'success',
+      ],
       control: {
         type: 'inline-radio',
       },
@@ -49,9 +56,23 @@ export const Tertiary: StoryObj<IconButtonProps> = {
   },
 }
 
+export const Warning: StoryObj<IconButtonProps> = {
+  args: {
+    variant: 'warning',
+    children: <WarningIcon weight="bold" />,
+  },
+}
+
 export const Danger: StoryObj<IconButtonProps> = {
   args: {
     variant: 'danger',
-    children: <Trash weight="bold" />,
+    children: <X weight="bold" />,
+  },
+}
+
+export const Success: StoryObj<IconButtonProps> = {
+  args: {
+    variant: 'success',
+    children: <Check weight="bold" />,
   },
 }
