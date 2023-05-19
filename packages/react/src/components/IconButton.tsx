@@ -24,10 +24,6 @@ export const IconButton = styled('button', {
     cursor: 'not-allowed',
   },
 
-  '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100',
-  },
-
   variants: {
     variant: {
       primary: {
@@ -59,6 +55,18 @@ export const IconButton = styled('button', {
       },
 
       tertiary: {
+        color: '$gray100',
+
+        '&:not(:disabled):hover': {
+          color: '$white',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
+        },
+      },
+
+      warning: {
         color: '$yellow400',
 
         '&:not(:disabled):hover': {
@@ -72,16 +80,25 @@ export const IconButton = styled('button', {
 
       danger: {
         color: '$red600',
-        border: '2px solid $red700',
 
         '&:not(:disabled):hover': {
-          background: '$red700',
-          color: '$white',
+          color: '$red700',
         },
 
         '&:disabled': {
           color: '$gray200',
-          borderColor: '$gray200',
+        },
+      },
+
+      success: {
+        color: '$green400',
+
+        '&:not(:disabled):hover': {
+          color: '$green700',
+        },
+
+        '&:disabled': {
+          color: '$gray200',
         },
       },
     },
