@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.0.3
+
+### Patch Changes
+
+- Adds new types and removes white border in buttons
+
 ## 2.0.2
 
 ### Patch Changes
