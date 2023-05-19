@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.0.4
+
+### Patch Changes
+
+- Change tertiary button color
+
 ## 2.0.3
 
 ### Patch Changes
