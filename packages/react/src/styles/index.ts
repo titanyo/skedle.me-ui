@@ -1,4 +1,5 @@
 import {
+  breakpoints,
   colors,
   fontSizes,
   fontWeights,
@@ -24,6 +25,14 @@ export const {
     ...defaultThemeMap,
     height: 'space',
     width: 'space',
+  },
+
+  media: {
+    sm: `(min-width: ${breakpoints.sm})`,
+    md: `(min-width: ${breakpoints.md})`,
+    lg: `(min-width: ${breakpoints.lg})`,
+    xl: `(min-width: ${breakpoints.xl})`,
+    xxl: `(min-width: ${breakpoints.xxl})`,
   },
 
   theme: {
