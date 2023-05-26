@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Adds breakpoints in media
+
 ## 2.0.5
 
 ### Patch Changes
