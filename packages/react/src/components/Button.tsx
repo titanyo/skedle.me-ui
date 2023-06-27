@@ -32,7 +32,7 @@ export const Button = styled('button', {
         background: '$yellow500',
 
         '&:not(:disabled):hover': {
-          background: '$yellow300',
+          background: '$yellow700',
         },
 
         '&:disabled': {
