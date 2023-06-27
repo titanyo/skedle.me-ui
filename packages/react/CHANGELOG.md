@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.1
+
+### Patch Changes
+
+- Change tag and buttons design
+
 ## 2.1.0
 
 ### Minor Changes
