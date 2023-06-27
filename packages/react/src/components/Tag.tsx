@@ -16,20 +16,10 @@ export const Tag = styled('p', {
       true: {
         color: '$gray100',
         border: '2px solid $gray600',
-
-        '&:not(:disabled):hover': {
-          color: '$white',
-          transition: 'color 0.3s ease-in-out',
-        },
       },
       false: {
-        color: '$white',
+        color: '$gray100',
         background: '$gray600',
-
-        '&:not(:disabled):hover': {
-          background: '$gray500',
-          transition: 'background-color 0.3s ease-in-out',
-        },
       },
     },
 
