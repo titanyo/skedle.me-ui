@@ -1,5 +1,11 @@
 # @skedle.me-ui/tokens
 
+## 1.2.2
+
+### Patch Changes
+
+- Add new gray color
+
 ## 1.2.1
 
 ### Patch Changes
