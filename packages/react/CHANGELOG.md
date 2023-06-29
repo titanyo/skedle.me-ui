@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Add new gray color in color palette
+
 ## 2.1.1
 
 ### Patch Changes
