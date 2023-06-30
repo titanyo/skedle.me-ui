@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.5
+
+### Patch Changes
+
+- Fix switch props
+
 ## 2.1.4
 
 ### Patch Changes
