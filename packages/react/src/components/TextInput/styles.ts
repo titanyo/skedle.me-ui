@@ -12,7 +12,7 @@ export const TextInputContainer = styled('div', {
   height: '$12',
 
   '&:has(input:focus)': {
-    border: '3px solid $yellow400',
+    border: '3px solid $yellow500',
   },
 
   '&:has(input:disabled)': {
