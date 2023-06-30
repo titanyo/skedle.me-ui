@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.6
+
+### Patch Changes
+
+- Change components color
+
 ## 2.1.5
 
 ### Patch Changes
