@@ -1,6 +1,6 @@
 {
   "name": "@skedle.me-ui/react",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
