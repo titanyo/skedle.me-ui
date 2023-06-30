@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.4
+
+### Patch Changes
+
+- Change switch background color
+
 ## 2.1.3
 
 ### Patch Changes
