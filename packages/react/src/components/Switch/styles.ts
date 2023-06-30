@@ -13,7 +13,7 @@ export const SwitchContainer = styled(Switch.Root, {
 
   '&:focus': {
     boxShadow: '0 0 0 2px $gray950',
-    border: '2px solid $yellow400',
+    border: '2px solid $yellow500',
   },
 })
 
@@ -22,7 +22,7 @@ export const SwitchThumb = styled(Switch.Thumb, {
   width: '$3',
   height: '$3',
   borderRadius: '$full',
-  backgroundColor: '$yellow400',
+  backgroundColor: '$yellow500',
   display: 'block',
   boxShadow: '0 2px 2px $gray950',
   transition: 'transform 200ms',

@@ -26,7 +26,7 @@ export const TextArea = styled('textarea', {
 
   '&:focus': {
     outline: 0,
-    border: '3px solid $yellow400',
+    border: '3px solid $yellow500',
   },
 
   variants: {
