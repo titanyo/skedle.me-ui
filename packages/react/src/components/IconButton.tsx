@@ -40,7 +40,7 @@ export const IconButton = styled('button', {
       },
 
       secondary: {
-        color: '$yellow400',
+        color: '$yellow500',
         border: '2px solid $yellow500',
 
         '&:not(:disabled):hover': {
