@@ -5,11 +5,11 @@ export const SwitchContainer = styled(Switch.Root, {
   all: 'unset',
   width: '$8',
   height: '$5',
-  backgroundColor: '$gray900',
+  backgroundColor: '$black',
   borderRadius: '$full',
   cursor: 'pointer',
   boxSizing: 'border-box',
-  border: '2px solid $gray900',
+  border: '2px solid $black',
 
   '&:focus': {
     boxShadow: '0 0 0 2px $gray950',
