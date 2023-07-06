@@ -35,7 +35,7 @@ export const IconButton = styled('button', {
         },
 
         '&:disabled': {
-          backgroundColor: '$gray200',
+          backgroundColor: '$gray500',
         },
       },
 
@@ -44,13 +44,13 @@ export const IconButton = styled('button', {
         border: '2px solid $yellow500',
 
         '&:not(:disabled):hover': {
-          background: '$yellow500',
           color: '$gray600',
+          background: '$yellow500',
         },
 
         '&:disabled': {
-          color: '$gray200',
-          borderColor: '$gray200',
+          color: '$gray500',
+          borderColor: '$gray500',
         },
       },
 
@@ -62,7 +62,7 @@ export const IconButton = styled('button', {
         },
 
         '&:disabled': {
-          color: '$gray200',
+          color: '$gray500',
         },
       },
 
@@ -74,7 +74,7 @@ export const IconButton = styled('button', {
         },
 
         '&:disabled': {
-          color: '$gray200',
+          color: '$gray500',
         },
       },
 
@@ -86,7 +86,7 @@ export const IconButton = styled('button', {
         },
 
         '&:disabled': {
-          color: '$gray200',
+          color: '$gray500',
         },
       },
 
@@ -98,7 +98,7 @@ export const IconButton = styled('button', {
         },
 
         '&:disabled': {
-          color: '$gray200',
+          color: '$gray500',
         },
       },
     },
