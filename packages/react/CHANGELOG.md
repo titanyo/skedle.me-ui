@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.7
+
+### Patch Changes
+
+- Change color when disabled in buttons and icon buttons
+
 ## 2.1.6
 
 ### Patch Changes
