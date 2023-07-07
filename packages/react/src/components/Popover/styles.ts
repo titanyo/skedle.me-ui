@@ -5,6 +5,10 @@ export const PopoverContainer = styled(Popover.Root, {})
 
 export const PopoverTrigger = styled(Popover.Trigger, {
   all: 'unset',
+  display: 'flex',
+  flex: '1',
+  width: '100%',
+  height: '100%',
 })
 
 export const PopoverPortal = styled(Popover.Portal, {})
