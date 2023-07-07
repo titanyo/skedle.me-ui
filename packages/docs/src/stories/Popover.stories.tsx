@@ -8,7 +8,7 @@ export default {
     size: 'md',
     side: 'right',
     sideOffset: 5,
-    trigger: <Button>Open popover</Button>,
+    trigger: <Button full>Open popover</Button>,
     children: <Text>Popover content</Text>,
   },
   argTypes: {
@@ -43,7 +43,9 @@ export default {
             height: 'calc(100vh - 35px)',
           }}
         >
-          <Story />
+          <div>
+            <Story />
+          </div>
         </div>
       )
     },
