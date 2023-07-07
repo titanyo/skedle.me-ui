@@ -104,6 +104,14 @@ export const IconButton = styled('button', {
     },
 
     size: {
+      xxs: {
+        padding: '0',
+      },
+
+      xs: {
+        padding: '$1',
+      },
+
       sm: {
         padding: '$2',
       },
