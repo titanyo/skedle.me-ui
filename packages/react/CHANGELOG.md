@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.9
+
+### Patch Changes
+
+- Change popover component
+
 ## 2.1.8
 
 ### Patch Changes
