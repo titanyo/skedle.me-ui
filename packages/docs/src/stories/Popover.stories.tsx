@@ -1,20 +1,14 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import {
-  Text,
-  PopoverContainer,
-  PopoverContent,
-  PopoverContentProps,
-  PopoverTrigger,
-  Button,
-} from '@skedle.me-ui/react'
+import { Text, Popover, PopoverProps, Button } from '@skedle.me-ui/react'
 
 export default {
-  title: 'Surfaces/Popover',
-  component: PopoverContent,
+  title: 'Data display/Popover',
+  component: Popover,
   args: {
     size: 'md',
     side: 'right',
     sideOffset: 5,
+    trigger: <Button>Open popover</Button>,
     children: <Text>Popover content</Text>,
   },
   argTypes: {
@@ -40,16 +34,20 @@ export default {
   decorators: [
     (Story) => {
       return (
-        <PopoverContainer>
-          <PopoverTrigger>
-            <Button>Open popover</Button>
-          </PopoverTrigger>
-
+        <div
+          style={{
+            display: 'flex',
+            flex: '1',
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: 'calc(100vh - 35px)',
+          }}
+        >
           <Story />
-        </PopoverContainer>
+        </div>
       )
     },
   ],
-} as Meta<PopoverContentProps>
+} as Meta<PopoverProps>
 
-export const Default: StoryObj<PopoverContentProps> = {}
+export const Default: StoryObj<PopoverProps> = {}

@@ -12,7 +12,7 @@ export const TextInputContainer = styled('div', {
   height: '$12',
 
   '&:has(input:focus)': {
-    border: '3px solid $yellow500',
+    border: '2px solid $yellow500',
   },
 
   '&:has(input:disabled)': {
@@ -23,7 +23,7 @@ export const TextInputContainer = styled('div', {
   variants: {
     error: {
       true: {
-        border: '3px solid $red700',
+        border: '2px solid $red700',
       },
       false: {},
     },

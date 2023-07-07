@@ -1,9 +1,15 @@
 import * as Popover from '@radix-ui/react-popover'
 import { styled } from '../../styles'
 
+export const PopoverContainer = styled(Popover.Root, {})
+
 export const PopoverTrigger = styled(Popover.Trigger, {
   all: 'unset',
 })
+
+export const PopoverPortal = styled(Popover.Portal, {})
+
+export const PopoverContent = styled(Popover.Content, {})
 
 export const CustomBox = styled('div', {
   borderRadius: '$md',

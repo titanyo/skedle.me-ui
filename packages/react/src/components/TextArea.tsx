@@ -26,13 +26,13 @@ export const TextArea = styled('textarea', {
 
   '&:focus': {
     outline: 0,
-    border: '3px solid $yellow500',
+    border: '2px solid $yellow500',
   },
 
   variants: {
     error: {
       true: {
-        border: '3px solid $red700',
+        border: '2px solid $red700',
       },
       false: {},
     },
