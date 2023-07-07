@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.10
+
+### Patch Changes
+
+- Add new sizes in icon button
+
 ## 2.1.9
 
 ### Patch Changes
