@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="#fire-instalação-e-execução">Instalação e execução</a>   |   <a href="#hash-versionamento">Versionamento</a>   |   <a href="#memo-licença">Licença</a>
+  <a href="#fire-instalação-e-execução">Instalação e execução</a>   |   <a href="#hash-versionamento-e-compilação">Versionamento e compilação</a>   |   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :wrench: Instalação e Execução
@@ -36,7 +36,7 @@ npm run dev
 
 ```
 
-## :hash: Versionamento
+## :hash: Versionamento e Compilação
 
 Depois de realizar as alterações, execute o comando abaixo para adicionar os pacotes que foram alterados para gerar uma nova versão:
 
