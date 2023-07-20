@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="#fire-instalação-e-execução">Instalação e execução</a>   |   <a href="#hash-versionamento-e-compilação">Versionamento e compilação</a>   |   <a href="#memo-licença">Licença</a>
+  <a href="#fire-instalação-e-execução">Instalação e Execução</a>   |   <a href="#hash-versionamento-e-compilação">Versionamento e Compilação</a>   |   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :wrench: Instalação e Execução
