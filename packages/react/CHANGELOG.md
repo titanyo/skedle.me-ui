@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.12
+
+### Patch Changes
+
+- Add error text component
+
 ## 2.1.11
 
 ### Patch Changes
