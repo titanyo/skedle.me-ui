@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Text, Popover, PopoverProps, Button } from '@skedle.me-ui/react'
 
 export default {
-  title: 'Data display/Popover',
+  title: 'Overlay/Popover',
   component: Popover,
   args: {
     size: 'md',
