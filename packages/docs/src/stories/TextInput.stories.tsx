@@ -73,6 +73,13 @@ export const LeftButton: StoryObj<TextInputProps> = {
       </IconButton>
     ),
   },
+  argTypes: {
+    leftButton: {
+      control: {
+        type: null,
+      },
+    },
+  },
 }
 
 export const RightButton: StoryObj<TextInputProps> = {
@@ -82,5 +89,12 @@ export const RightButton: StoryObj<TextInputProps> = {
         <Lock weight="bold" />
       </IconButton>
     ),
+  },
+  argTypes: {
+    rightButton: {
+      control: {
+        type: null,
+      },
+    },
   },
 }

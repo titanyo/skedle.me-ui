@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.13
+
+### Patch Changes
+
+- Add state function in popover component
+
 ## 2.1.12
 
 ### Patch Changes

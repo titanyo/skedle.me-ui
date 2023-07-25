@@ -8,19 +8,23 @@ import {
 } from './styles'
 
 export interface PopoverProps extends ComponentProps<typeof PopoverContent> {
+  open?: boolean
+  onOpenChange?: (open: boolean) => void
   size?: 'sm' | 'md' | 'lg' | 'xl'
   trigger: ReactNode
   children: ReactNode
 }
 
 export const Popover = ({
+  open,
+  onOpenChange,
   size,
   trigger,
   children,
   ...props
 }: PopoverProps) => {
   return (
-    <PopoverContainer>
+    <PopoverContainer open={open} onOpenChange={onOpenChange}>
       <PopoverTrigger>{trigger}</PopoverTrigger>
       <PopoverPortal>
         <PopoverContent sideOffset={5} {...props}>
