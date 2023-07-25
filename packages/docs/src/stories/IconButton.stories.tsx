@@ -39,6 +39,11 @@ export default {
     onClick: {
       action: 'click',
     },
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 } as Meta<IconButtonProps>
 
