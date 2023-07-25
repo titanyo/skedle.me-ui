@@ -79,6 +79,13 @@ export const LeftIcon: StoryObj<ButtonProps> = {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 }
 
 export const RightIcon: StoryObj<ButtonProps> = {
@@ -89,5 +96,12 @@ export const RightIcon: StoryObj<ButtonProps> = {
         <ArrowRight weight="bold" />
       </>
     ),
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 }
