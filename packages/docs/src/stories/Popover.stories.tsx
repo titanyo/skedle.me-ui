@@ -30,6 +30,16 @@ export default {
         type: 'inline-radio',
       },
     },
+    trigger: {
+      control: {
+        type: null,
+      },
+    },
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
   decorators: [
     (Story) => {
@@ -53,3 +63,9 @@ export default {
 } as Meta<PopoverProps>
 
 export const Default: StoryObj<PopoverProps> = {}
+
+export const State: StoryObj<PopoverProps> = {
+  args: {
+    open: true,
+  },
+}
