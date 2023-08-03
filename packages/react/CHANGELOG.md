@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.14
+
+### Patch Changes
+
+- Add new colors in tokens
+
 ## 2.1.13
 
 ### Patch Changes
