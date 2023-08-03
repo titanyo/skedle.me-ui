@@ -1,5 +1,11 @@
 # @skedle.me-ui/tokens
 
+## 1.2.3
+
+### Patch Changes
+
+- Add new colors in tokens
+
 ## 1.2.2
 
 ### Patch Changes
