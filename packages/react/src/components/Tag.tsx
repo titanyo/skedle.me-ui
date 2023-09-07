@@ -8,7 +8,6 @@ export const Tag = styled('p', {
   fontFamily: '$default',
   textAlign: 'center',
   boxSizing: 'border-box',
-
   cursor: 'default',
 
   variants: {
