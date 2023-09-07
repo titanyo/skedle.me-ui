@@ -3,17 +3,15 @@ import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '$2',
   borderRadius: '$sm',
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
   boxSizing: 'border-box',
-
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  gap: '$2',
-
   cursor: 'pointer',
 
   svg: {
