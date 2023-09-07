@@ -3,16 +3,14 @@ import { styled } from '../styles'
 
 export const IconButton = styled('button', {
   all: 'unset',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
   borderRadius: '$sm',
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
   boxSizing: 'border-box',
-
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-
   cursor: 'pointer',
 
   svg: {
