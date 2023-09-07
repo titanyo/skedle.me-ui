@@ -1,5 +1,11 @@
 # @skedle.me-ui/react
 
+## 2.1.15
+
+### Patch Changes
+
+- Add select and select item component
+
 ## 2.1.14
 
 ### Patch Changes
