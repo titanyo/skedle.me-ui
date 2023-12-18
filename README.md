@@ -67,5 +67,5 @@ Este projeto está sob licença MIT. Veja [LICENÇA](/LICENSE) para mais informa
 ---
 
 <p align="center">
-Desenvolvido por <a href="https://github.com/prismapro">PrismaPro Labs</a>
+Desenvolvido por <a href="https://github.com/prismapro">Prisma Labs</a>
 </p>
