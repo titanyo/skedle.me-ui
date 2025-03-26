@@ -10,7 +10,7 @@
 
 <p align="center">
   :open_book: Design System do projeto Skedle.me.
-  <a href="https://prismapro.github.io/skedle.me-ui/">Clique aqui</a> para acessar.  
+  <a href="https://titanyo.github.io/skedle.me-ui/">Clique aqui</a> para acessar.  
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Abrir terminal:
 
 ```sh
 # Clone este repositório
-git clone https://github.com/prismapro/skedle.me-ui
+git clone https://github.com/titanyo/skedle.me-ui
 
 # Entre na pasta
 cd skedle.me-ui
@@ -32,6 +32,7 @@ cd skedle.me-ui
 npm install
 
 # Inicie o aplicativo
+# Funcionando no Node v16.15.0, não está funcionando no Node v18.13.0
 npm run dev
 
 ```
@@ -67,5 +68,5 @@ Este projeto está sob licença MIT. Veja [LICENÇA](/LICENSE) para mais informa
 ---
 
 <p align="center">
-Desenvolvido por <a href="https://github.com/prismapro">Prisma Labs</a>
+Desenvolvido por <a href="https://github.com/titanyo">Titanyo</a>
 </p>
